@@ -11,10 +11,10 @@ import seaborn as sns
 # df_2012_path = "df_2012_group_by_musim.csv" 
 # ddd
 
-df_day = pd.read_csv("df_day.csv")
-df_hour = pd.read_csv("df_hour.csv")
-df_2011_group_by_musim = pd.read_csv("df_2011_group_by_musim.csv")
-df_2012_group_by_musim = pd.read_csv("df_2012_group_by_musim.csv")
+df_day = pd.read_csv("dashboard/df_day.csv")
+df_hour = pd.read_csv("dashboard/df_hour.csv")
+df_2011_group_by_musim = pd.read_csv("dashboard/df_2011_group_by_musim.csv")
+df_2012_group_by_musim = pd.read_csv("dashboard/df_2012_group_by_musim.csv")
 
 st.title('Analisis Data Bike Sharing Dataset')
 
